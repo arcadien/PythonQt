@@ -72,7 +72,7 @@ set(minimum_required_qt_version "4.6.2")
 
 find_package(Qt5)
 
-if(QT5_FOUND)
+if(QT_FOUND)
 
   set(found_qt_version ${QT_VERSION_MAJOR}.${QT_VERSION_MINOR}.${QT_VERSION_PATCH})
 
